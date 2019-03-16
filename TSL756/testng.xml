@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test99">
+    <classes>
+      <class name="in.lnt.day4.Para"/>
+      <class name="in.lnt.day4.FirstNG"/>
+    </classes>
+  </test> <!-- Test99 -->
+</suite> <!-- Suite -->

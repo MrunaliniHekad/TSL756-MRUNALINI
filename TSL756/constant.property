@@ -1,0 +1,4 @@
+URL=http://www.google.com
+implicitwait=20
+excelpath=D:\Excel\\Mrunalini.xlsx
+element_download=//*[text()='Download']_xpath

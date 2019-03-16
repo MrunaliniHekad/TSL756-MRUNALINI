@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="dependsExample2(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day8.DependsExample">
+        <methods>
+          <include name="afterTest"/>
+          <include name="test2"/>
+          <include name="beforeTest"/>
+          <include name="test3"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- day8.DependsExample -->
+    </classes>
+  </test> <!-- dependsExample2(failed) -->
+  <test name="dependsExample(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="day8.DependsExample">
+        <methods>
+          <include name="afterTest"/>
+          <include name="test2"/>
+          <include name="beforeTest"/>
+          <include name="test3"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- day8.DependsExample -->
+    </classes>
+  </test> <!-- dependsExample(failed) -->
+</suite> <!-- Failed suite [Suite] -->
